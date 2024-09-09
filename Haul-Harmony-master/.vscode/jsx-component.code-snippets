@@ -1,0 +1,20 @@
+{
+	"React Functional Component": {
+	  "prefix": "rafc",
+	  "body": [
+		"import React from \"react\"",
+		"",
+		"const ${1:name} = (props) => {",
+		"  return (",
+		"    <div>",
+		"      $2",
+		"    </div>",
+		"  )",
+		"};",
+		"",
+		"export default ${1:name};",
+		""
+	  ],
+	  "description": "React Functional Component"
+	}
+  }
